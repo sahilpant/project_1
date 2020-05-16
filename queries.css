@@ -1,0 +1,62 @@
+
+/* From big tablets to 1200px(widhs smaller than the 1140px row)*/
+@media only screen and (max-width:1200px) {
+
+    .main-text {
+    width: 100%;
+    padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/*small tablets to big tablets from 768px to 1023px*/
+@media only screen and (max-width:1023px) {
+
+
+    h1:after {
+        top: 26%;
+    }
+
+    .main section:nth-child(2) .row blockquote::before {
+        top: 118%;
+    }
+
+    .main section:nth-child(3) .row blockquote::before {
+        top: 218%;
+    }
+
+    body{ font-size: 18px;}
+
+}
+
+
+/* This for small phones to small tablets with resolution from 481 to 767px */
+@media only screen and (max-width:767px) {
+
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+   .row {
+        width: 100%;
+        margin: 0% 0 4% 0%;
+    }
+
+
+
+
+    h1 {
+        font-size: 170%;
+        font-weight: 300;
+    }
+    h2 { font-size: 130%; }
+
+}
+
+
+
+
+
